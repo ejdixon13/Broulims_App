@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/radio_Afton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
+        android:text="141 North Washington Street \n Afton, WY 83110 \n Mon-Sat 7:00am-10:00pm \n"
+        android:textSize="20sp" />
+
+    <RadioButton android:id="@+id/radio_Alpine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100 Grey's River Road \n Alpine, WY 83129 \n Mon-Sat 8:00am-9:00pm \n Sunday 9:00am-6:00pm \n"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Driggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="240 South Main Street \n Driggs, ID 83422 \n Mon-Sat 7:00am-11:00pm \n"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Montpelier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="130 South 4th Street \n Montpelier, ID 83254 \n Mon-Sat 7:00am-10:00pm \n"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Rexburg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="124 West Main \n Rexburg, ID 83440 \n Mon-Sat 6:00am-12:00am \n"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Rigby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150 North State Street \n Rigby, ID 83442 \n Mon-Sat 7:00am-11:00pm \n"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Shelley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="570 South State \n Shelley, ID 83274 \n Mon-Sat 7:00am- 10:00pm \n"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Soda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="89 2nd South Street \n Soda Springs, ID 83276 \n Mon-Sat 7:00am-9:00pm \n"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/radio_Anthony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="301 Aspen Square \n St. Anthony, ID 83445 \n Mon-Sat 7:00am-10:00pm"
+        android:textSize="20sp"
+        android:onClick="onRadioButtonClicked"/>
+</RadioGroup>

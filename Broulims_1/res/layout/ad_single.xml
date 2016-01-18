@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <TableRow
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginRight="10dp">
+	            <CheckBox
+			        android:id="@+id/checkBox1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:button="@+drawable/add_button"
+			        android:layout_marginTop="-20dp"
+			        android:paddingRight="25dp"
+			        android:scaleX=".55"
+			        android:scaleY=".55"/>
+		        <ImageView
+		            android:id="@+id/img"
+		            android:layout_marginTop="20dp"
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"
+		            />        
+		</TableRow>
+	</TableLayout>
+	        <TextView
+	            android:id="@+id/productName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" 
+	            android:layout_marginLeft="20dp"
+	            android:fontFamily="sans-serif-light"
+	            android:text="Product Name"
+	            android:scrollHorizontally="true"
+				android:ellipsize="end" 
+				android:maxLines="1"
+	            />
+	       	<TextView
+	            android:id="@+id/price"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginBottom="10dp"
+	            android:text="2/4$"
+	            android:fontFamily="sans-serif-light"
+	            android:textSize="18sp"
+	            />
+
+</LinearLayout>

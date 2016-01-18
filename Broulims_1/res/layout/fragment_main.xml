@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="${packageName}.${activityClass}" >
+
+        <ImageButton
+            android:id="@+id/weekly_sales"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleX="2.5"
+            android:scaleY="2.2"
+            android:src="@drawable/weekly"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:id="@+id/shopping_list"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_above="@+id/weekly_sales"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:background="@android:drawable/alert_dark_frame"
+            android:scaleType="centerCrop"
+            android:src="@drawable/easy_shopping"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/locater"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/shopping_list"
+            android:adjustViewBounds="true"
+            android:background="@android:drawable/alert_dark_frame"
+            android:scaleType="centerCrop"
+            android:src="@drawable/locater_icon" 
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_above="@+id/shopping_list"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:adjustViewBounds="true"
+            android:paddingBottom="50dp"
+            android:src="@drawable/logo" 
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignBottom="@+id/logo"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="53dp"
+            android:src="@android:color/black" 
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/locater"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:scaleX=".75"
+            android:scaleY=".75"
+            android:paddingBottom="0dp"
+            android:src="@drawable/setting" 
+            tools:ignore="ContentDescription"/>
+
+</RelativeLayout>
